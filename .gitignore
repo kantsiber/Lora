@@ -1,0 +1,23 @@
+# ========== НЕ ЗАГРУЖАЕМ НА GITHUB ==========
+
+# 1. ВСЕ большие CSV файлы (кроме final_data.csv)
+data_eda/part*.csv           # part1-part10 (каждый ~50MB)
+data_eda/comb_dataframe.csv  # большой файл
+data_eda/rebalanced_dataframe.csv  # большой файл
+
+# 2. Временные и кеш файлы
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# 3. Системные файлы
+.DS_Store
+Thumbs.db
+*.log
+
+# 4. Виртуальное окружение (если есть)
+.venv/
+venv/
+env/
